@@ -13,17 +13,17 @@
         </div>
     </header>
     <div class="container-cards">
-        <div class="card">
+        <div class="card" onclick="pikachu()">
             <img src="assets/img/pikachu.jpeg" alt="pikachu" style="width:100%">
             <div class="container">
               <h4><b>Pikachu</b></h4>
               <p><strong>Tipo:</strong> Raio</p>
             </div>
           </div>
-        <div class="card">
+        <div id="myBtn" class="card">
             <img src="assets/img/charmander.png" alt="charmander" style="width:100%">
-            <div class="container">
-              <h4><b>Charmander</b></h4>
+            <div  class="container">
+              <h4><b id="charmander">Charmander</b></h4>
               <p><strong>Tipo:</strong> Fogo</p>
             </div>
           </div>
@@ -37,7 +37,16 @@
     </div>
 
 
+    <!-- Criar aqui o modal com o Pokemon -->
+    
+    <div id="modalCharmander" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Charmander, eu escolho você!</p>
+      </div>
+    </div>
 
+    <!-- -->
 
 
       <script src="assets/js/utils.js"></script>
