@@ -85,3 +85,14 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+
+.ex {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100% !important;
+}
