@@ -14,25 +14,28 @@
             <p>Repo criado com propósito de aprender o básico de <strong>html, css, e js</strong></p>.
         </div>
     </header>
-    <div class="container-cards">
-        <div class="card" onclick="pikachu()">
+    <div class="container-cards" onclick="pokemons()">
+
+        <div id="CardPikachu" class="card" >
             <img src="assets/img/pikachu.jpeg" alt="pikachu" style="width:100%">
             <div class="container">
-              <h4><b>Pikachu</b></h4>
+              <h4><b id="pikachu">Pikachu</b></h4>
               <p><strong>Tipo:</strong> Raio</p>
             </div>
           </div>
-        <div id="myBtn" class="card">
+
+        <div id="CardCharmander" class="card">
             <img src="assets/img/charmander.png" alt="charmander" style="width:100%">
             <div  class="container">
               <h4><b id="charmander">Charmander</b></h4>
               <p><strong>Tipo:</strong> Fogo</p>
             </div>
           </div>
-        <div class="card">
+
+        <div id="CardBulbasauro" class="card">
             <img src="assets/img/bulbasaur.png" alt="bulbasaur" style="width:100%">
             <div class="container">
-              <h4><b>Bulbasaur</b></h4>
+              <h4><b>Bulbasauro</b></h4>
               <p><strong>Tipo:</strong> Planta</p>
             </div>
         </div>
@@ -41,12 +44,26 @@
 
     <!-- Criar aqui o modal com o Pokemon -->
     
-    <div id="modalCharmander" class="modal">
+    <div id="modalPikachu" class="modalPikachu">
       <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Charmander, eu escolho você!</p>
+        <span class="closePikachu">&times;</span>
+        <p>Pikachu, eu escolho você!</p>
       </div>
     </div>
+
+      <div id="modalCharmander" class="modalCharmander">
+        <div class="modal-content">
+          <span class="closeCharmander">&times;</span>
+          <p>Charmander, eu escolho você!</p>
+      </div>
+    </div>
+    
+    <div id="modalBulbasauro" class="modalBulbasauro">
+      <div class="modal-content">
+        <span class="closeBulbasauro">&times;</span>
+        <p>Bulbasauro, eu escolho você!</p>
+    </div>
+  </div>
 
     <!-- -->
 
